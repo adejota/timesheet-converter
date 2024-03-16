@@ -16,6 +16,7 @@ export default defineConfig({
         short_name: 'Timesheet',
         description: '',
         theme_color: '#28BEBE',
+        background_color: "#28BEBE",
         icons: [
           {
             src: 'pwa-192x192.png',
