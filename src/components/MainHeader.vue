@@ -15,9 +15,7 @@
 }
 
 .header-title {
-  font-family:
-    'Gelion Bold',
-    Roboto,
-    sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
 </style>

@@ -64,8 +64,4 @@ function handleNavigate(path) {
 .footer-container button:focus {
   outline: 2px solid var(--secondary-color);
 }
-
-.footer-container button a {
-  color: var(--secondary-color);
-}
 </style>

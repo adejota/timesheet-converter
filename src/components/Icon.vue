@@ -1,14 +1,18 @@
 <script setup>
+import NoIcon from './Icons/NoIcon.vue';
 import ArrowLeft from './Icons/ArrowLeft.vue';
 import ArrowRight from './Icons/ArrowRight.vue';
 
 const props = defineProps(['icon', 'size'])
 
 const getIconComponent = () => {
-  if (props.icon === 'ArrowLeft') {
-    return ArrowLeft;
-  } else if (props.icon === 'ArrowRight') {
-    return ArrowRight;
+  switch (props.icon) {
+    case 'ArrowLeft':
+      return ArrowLeft
+    case 'ArrowRight':
+      return ArrowRight
+    default:
+      return NoIcon;
   }
 };
 </script>
@@ -25,6 +29,6 @@ const getIconComponent = () => {
   justify-content: center;
   align-items: center;
 
-  fill: var(--secondary-color);
+  fill: white;
 }
 </style>

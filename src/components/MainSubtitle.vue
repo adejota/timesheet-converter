@@ -18,11 +18,7 @@ const props = defineProps(['title'])
 }
 
 .page-subtitle {
-  font-family:
-    'Gelion Medium',
-    Roboto,
-    sans-serif;
-
+  font-weight: 600;
   padding: 0 12px;
 }
 </style>
