@@ -51,13 +51,6 @@ const timeSheet = computed(function () {
 
 const previousPath = ref('')
 previousPath.value = window.history.state?.back
-
-onMounted(() => {
-  setTimeout(() => {
-    const startTimeInput = document.getElementById('start-time')
-    startTimeInput.focus()
-  }, 800)
-});
 </script>
 
 <template>

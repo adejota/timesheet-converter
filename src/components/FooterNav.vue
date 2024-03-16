@@ -59,6 +59,7 @@ function handleNavigate(path) {
   border: none;
   background-color: var(--primary-color);
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .footer-container button:focus {

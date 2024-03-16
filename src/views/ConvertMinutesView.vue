@@ -11,13 +11,6 @@ const timesheet = computed(function () {
 
 const previousPath = ref('')
 previousPath.value = window.history.state?.back
-
-onMounted(() => {
-  setTimeout(() => {
-    const totalMinutesInput = document.getElementById('total-minutes')
-    totalMinutesInput.focus()
-  }, 800)
-});
 </script>
 
 <template>
