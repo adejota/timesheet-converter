@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Gelion Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gelion Regular'), url('../assets/fonts/Gelion/Gelion\ Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gelion Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gelion Light'), url('../assets/fonts/Gelion/Gelion\ Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gelion Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gelion Bold'), url('../assets/fonts/Gelion/Gelion\ Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gelion Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gelion Medium'), url('../assets/fonts/Gelion/Gelion\ Medium.woff') format('woff');
+}
+
+:root {
+  --primary-color: #28BEBE;
+  --secondary-color: #F26423;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  font-family:
+    'Gelion Regular',
+    Roboto,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+}
+
+a {
+  text-decoration: none;
+}
