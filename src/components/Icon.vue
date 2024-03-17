@@ -2,6 +2,7 @@
 import NoIcon from './Icons/NoIcon.vue';
 import ArrowLeft from './Icons/ArrowLeft.vue';
 import ArrowRight from './Icons/ArrowRight.vue';
+import CircleExclamation from './Icons/CircleExclamation.vue';
 
 const props = defineProps(['icon', 'size'])
 
@@ -11,6 +12,8 @@ const getIconComponent = () => {
       return ArrowLeft
     case 'ArrowRight':
       return ArrowRight
+    case 'CircleExclamation':
+      return CircleExclamation
     default:
       return NoIcon;
   }
